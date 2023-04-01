@@ -1,0 +1,331 @@
+.propertyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.propimg {
+    margin-left: -44px;
+    width: 1688px;
+    height: 700px;
+    margin-bottom: 50px;
+    margin-top: 30px;
+}
+
+.propertyWrapper {
+    width: 100%;
+    max-width: 1600px;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.bookNow {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.propertyTitle {
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: 'Gill Sans MT';
+    color: #db731f;
+}
+
+.propertyAddress {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.propertyDistance {
+    color: #0071c2;
+    font-weight: 500;
+}
+
+.propertyPriceHighlight {
+    color: #008009;
+    font-weight: 500;
+}
+
+.propertyImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.propertyImgWrapper {
+    width: 33%;
+}
+
+.propertyImg {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.propertyDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.propertyDetailsTexts {
+    flex: 3;
+}
+
+.propertyDesc {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.propertyDetailsPrice {
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.propertyDetailsPrice>h1 {
+    font-size: 18px;
+    color: #555;
+}
+
+.propertyDetailsPrice>span {
+    font-size: 14px;
+}
+
+.propertyDetailsPrice>h2 {
+    font-weight: 300;
+}
+
+.propertyDetailsPrice>button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slider {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.613);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.sliderWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImg {
+    width: 80%;
+    height: 80vh;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.arrow {
+    margin: 20px;
+    font-size: 50px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+/* .propertyContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.propimg {
+    margin-left: 45px;
+    width: 1500px;
+    height: 600px;
+    margin-bottom: 50px;
+    margin-top: 40px;
+}
+
+.propertyWrapper {
+    width: 100%;
+    max-width: 1600px;
+    flex-direction: column;
+    gap: 10px;
+    position: relative;
+}
+
+.bookNow {
+    position: absolute;
+    top: 10px;
+    right: 0;
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.propertyTitle {
+    font-size: 40px;
+    font-weight: 1000;
+    font-family: 'Gill Sans MT';
+    color: #db731f;
+}
+
+.propertyAddress {
+    font-size: 12px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.propertyDistance {
+    color: #0071c2;
+    font-weight: 500;
+}
+
+.propertyPriceHighlight {
+    color: #008009;
+    font-weight: 500;
+}
+
+.propertyImages {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.propertyImgWrapper {
+    width: 33%;
+}
+
+.propertyImg {
+    width: 100%;
+    object-fit: cover;
+    cursor: pointer;
+}
+
+.propertyDetails {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    margin-top: 20px;
+}
+
+.propertyDetailsTexts {
+    flex: 3;
+}
+
+.propertyDesc {
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.propertyDetailsPrice {
+    flex: 1;
+    background-color: #ebf3ff;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.propertyDetailsPrice>h1 {
+    font-size: 18px;
+    color: #555;
+}
+
+.propertyDetailsPrice>span {
+    font-size: 14px;
+}
+
+.propertyDetailsPrice>h2 {
+    font-weight: 300;
+}
+
+.propertyDetailsPrice>button {
+    border: none;
+    padding: 10px 20px;
+    background-color: #0071c2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.slider {
+    position: sticky;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.613);
+    z-index: 999;
+    display: flex;
+    align-items: center;
+}
+
+.sliderWrapper {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sliderImg {
+    width: 80%;
+    height: 80vh;
+}
+
+.close {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    font-size: 30px;
+    color: lightgray;
+    cursor: pointer;
+}
+
+.arrow {
+    margin: 20px;
+    font-size: 50px;
+    color: lightgray;
+    cursor: pointer;
+} */

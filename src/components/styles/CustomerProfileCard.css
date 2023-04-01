@@ -1,0 +1,35 @@
+.menu-item:hover {
+    background: #da6404;
+    color: white;
+    text-decoration: none;
+    box-shadow: 5px 10px 30px rgba(236, 108, 29, 0.411);
+    transition: all ease 0.2s;
+}
+
+.active {
+    background-color: #da6404;
+    color: rgb(255, 255, 255);
+    box-shadow: 5px 10px 30px rgba(236, 108, 29, 0.411);
+    transition: all ease 0.2s;
+}
+
+.menu-item {
+    height: 40px;
+    line-height: 43px;
+    margin: 3px;
+    padding: 0px 22px;
+    display: flex;
+    font-size: 0.8rem;
+    text-transform: uppercase;
+    font-weight: 500;
+    color: #242424;
+    letter-spacing: 1px;
+    border-radius: 3px;
+    transition: 0.2s ease-in-out;
+    text-decoration: none;
+}
+
+.menu-1 {
+    display: flex;
+    margin-left: 100px;
+}

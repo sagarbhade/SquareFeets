@@ -1,0 +1,38 @@
+.header {
+    width: 100%;
+    height: 768px;
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("../../images/header-bg.png");
+}
+
+.intro {
+    font-family: 'Montserrat';
+    width: 650px;
+    position: absolute;
+    left: 16%;
+    top: 50%;
+    transform: translate(-20%, -50%);
+}
+
+.intro span {
+    color: rgb(239, 96, 8);
+}
+
+.intro .details {
+    color: #da6404;
+}
+
+.intro h1 {
+    font-family: 'Montserrat';
+    font-size: 46px;
+    margin: 0px;
+    letter-spacing: 3px;
+    color: #da6404;
+}
+
+.intro p {
+    color: #da6404;
+    font-weight: 500;
+}

@@ -1,0 +1,31 @@
+#container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.left {
+    width: 50vw;
+    background-color: rgb(2, 27, 52);
+}
+
+.right {
+    width: 50vw;
+    background-color: #687;
+}
+
+.btn {
+    -webkit-border-radius: 7;
+    -moz-border-radius: 7;
+    border-radius: 7px;
+    font-family: Arial;
+    color: #ffffff;
+    font-size: 20px;
+    background: #fd5631;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #fd5631;
+    text-decoration: none;
+}
